@@ -204,8 +204,8 @@ $c05: #ec5f5f;
 
 /* active state to grow the heart */
 .heart.active {
-   width: 500px;
-   height: 500px;
+   width: 750px;
+   height: 750px;
    animation: none !important;
    transition: all 1s 0.2s ease;
    cursor: auto;
@@ -215,8 +215,8 @@ $c05: #ec5f5f;
 }   
 
 .heart:hover.active {
-   width: 500px;
-   height: 500px;
+   width: 750px;
+   height: 750px;
 }
 
 /* title - click */
@@ -390,7 +390,7 @@ $c05: #ec5f5f;
    transform: rotate(-45deg);
    border-radius: 400px 400px 0px 100px;
    left: 10%;
-   box-shadow: rgba(60, 170, 88, 1) 0px 8px 24px;
+//    box-shadow: rgba(60, 170, 88, 1) 0px 8px 24px;
 
 }
 
@@ -400,6 +400,32 @@ $c05: #ec5f5f;
    transform: rotate(45deg);
    border-radius: 400px 400px 100px 0px;
    right: 10%;
-   box-shadow: rgba(60, 170, 88, 1) 0px 8px 24px;
+//    box-shadow: rgba(60, 170, 88, 1) 0px 8px 24px;
 
+}
+
+a{
+    text-decoration: none;
+    color: #fefefe;
+    cursor: none;
+    
+}
+a:visited {
+    color: #fefefe;
+}
+.type-writer {
+    position: absolute;
+    top:180px;
+    z-index: 3000;
+    max-width: 65%;
+    text-align: center;
+    display: none;
+    // add manually
+}
+.typeActive {
+    display:  block;
+}
+.next-button {
+    position: absolute;
+    right: 0;
 }

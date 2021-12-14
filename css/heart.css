@@ -163,8 +163,8 @@
 
 /* active state to grow the heart */
 .heart.active {
-  width: 500px;
-  height: 500px;
+  width: 750px;
+  height: 750px;
   animation: none !important;
   transition: all 1s 0.2s ease;
   cursor: auto;
@@ -172,8 +172,8 @@
   position: absolute; }
 
 .heart:hover.active {
-  width: 500px;
-  height: 500px; }
+  width: 750px;
+  height: 750px; }
 
 /* title - click */
 .heart .title {
@@ -318,13 +318,34 @@
 .heart4:before {
   transform: rotate(-45deg);
   border-radius: 400px 400px 0px 100px;
-  left: 10%;
-  box-shadow: #3caa58 0px 8px 24px; }
+  left: 10%; }
 
 .heart2:after,
 .heart3:after,
 .heart4:after {
   transform: rotate(45deg);
   border-radius: 400px 400px 100px 0px;
-  right: 10%;
-  box-shadow: #3caa58 0px 8px 24px; }
+  right: 10%; }
+
+a {
+  text-decoration: none;
+  color: #fefefe;
+  cursor: none; }
+
+a:visited {
+  color: #fefefe; }
+
+.type-writer {
+  position: absolute;
+  top: 180px;
+  z-index: 3000;
+  max-width: 65%;
+  text-align: center;
+  display: none; }
+
+.typeActive {
+  display: block; }
+
+.next-button {
+  position: absolute;
+  right: 0; }

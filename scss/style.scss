@@ -23,6 +23,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    transition: all 2s ease-out;
 }
 #hearContainer {
     width: 128px;
@@ -99,4 +100,12 @@ body{
 .backgorund {
     position: absolute;
     z-index: -10000;
+}
+
+
+.content {
+    transition: left 2s ease-out;
+}
+.remove {
+    left: -100000px;
 }
