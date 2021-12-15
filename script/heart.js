@@ -5,10 +5,20 @@ var heart = document.querySelector('.heart'),
    heartAnime = document.querySelector('.heart.anime')
 const typewrite = document.querySelector (".type-writer");
 const content = document.querySelector(".container");
+const radio = document.querySelector(".radio");
+      
 const nextBtn = document.querySelector(".next-button");
+
 nextBtn.addEventListener("click",()=> {
-    //later
+    if(!heart.classList.contains("disappear"));
+    radio.classList.toggle("disappear")
+    if(!radio.classList.contains("disappear"));
+    heart.classList.toggle("disappear");
 })
+
+
+
+
 heart.addEventListener('click', animation);
 heart.addEventListener('click', ()=>{
     setTimeout(()=>{

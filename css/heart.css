@@ -114,11 +114,11 @@
 .heart {
   width: 120px;
   height: 120px;
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 1s 0.2s ease;
+  transition: all 1s 0.2s linear;
   opacity: 1; }
 
 .heart:hover {
@@ -348,4 +348,28 @@ a:visited {
 
 .next-button {
   position: absolute;
-  right: 0; }
+  right: 0;
+  width: 60px;
+  height: 12vh;
+  right: 5vw;
+  background-color: rgba(70, 183, 167, 0.4);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s linear; }
+  .next-button img {
+    width: 64px;
+    height: 64px; }
+  .next-button:hover {
+    transform: scale(1.2); }
+
+button {
+  outline: none;
+  background-color: #131418;
+  color: #fefefe;
+  border: none; }
+
+.disappear {
+  transform: translateX(-3000px); }
