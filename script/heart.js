@@ -6,14 +6,15 @@ var heart = document.querySelector('.heart'),
 const typewrite = document.querySelector (".type-writer");
 const content = document.querySelector(".container");
 const radio = document.querySelector(".radio");
-      
+const contenthihi = document.querySelector(".container")
 const nextBtn = document.querySelector(".next-button");
-
-nextBtn.addEventListener("click",()=> {
-    if(!heart.classList.contains("disappear"));
+const agree = document.querySelector("#toggle-heart");
+agree.addEventListener("change",()=> {
+    if(!content.classList.contains("disappear"));
     radio.classList.toggle("disappear")
     if(!radio.classList.contains("disappear"));
-    heart.classList.toggle("disappear");
+    content.classList.toggle("disappear");
+    console.log(content)
 })
 
 

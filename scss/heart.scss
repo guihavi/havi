@@ -426,13 +426,15 @@ a:visited {
     display:  block;
 }
 .next-button {
-    position: absolute;
-    right: 0;
-   width: 60px;
-   height: 12vh;
-   right : 5vw;
+    
+   
+   width: 140px;
+   height: 60px;
+  
+   bottom :20%;
+
    // background-image: linear-gradient( to right, #360033,#0b8793 );
-   background-color: rgba($color: #46b7a7, $alpha: 0.4);
+   background-color: rgba($color: rgb(18, 21, 22), $alpha: 0.4);
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -444,7 +446,7 @@ a:visited {
        height: 64px;
     }
       &:hover {
-       transform: scale(1.2);
+       
       }
    }
 

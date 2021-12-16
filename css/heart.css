@@ -347,12 +347,10 @@ a:visited {
   display: block; }
 
 .next-button {
-  position: absolute;
-  right: 0;
-  width: 60px;
-  height: 12vh;
-  right: 5vw;
-  background-color: rgba(70, 183, 167, 0.4);
+  width: 140px;
+  height: 60px;
+  bottom: 20%;
+  background-color: rgba(18, 21, 22, 0.4);
   border-radius: 30px;
   display: flex;
   justify-content: center;
@@ -362,8 +360,6 @@ a:visited {
   .next-button img {
     width: 64px;
     height: 64px; }
-  .next-button:hover {
-    transform: scale(1.2); }
 
 button {
   outline: none;
