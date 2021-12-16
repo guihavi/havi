@@ -131,4 +131,9 @@ height: 100%;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+.act {
+  opacity: 1 !important;
 }

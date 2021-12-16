@@ -9,22 +9,32 @@ const radio = document.querySelector(".radio");
 const contenthihi = document.querySelector(".container")
 const nextBtn = document.querySelector(".next-button");
 const agree = document.querySelector("#toggle-heart");
+const disagree = document.querySelector(".disagree-button")
 agree.addEventListener("change",()=> {
     if(!content.classList.contains("disappear"));
     radio.classList.toggle("disappear")
     if(!radio.classList.contains("disappear"));
     content.classList.toggle("disappear");
-    console.log(content)
+    
+    if(agree.checked) {
+        disagree.classList.add("disappear2")
+    }
+    else {
+        disagree.classList.remove("disappear2")
+    }
 })
 
 
-
+const listbtn = document.querySelector(".bttn");
 
 heart.addEventListener('click', animation);
 heart.addEventListener('click', ()=>{
     setTimeout(()=>{
         typewrite.classList.add("typeActive");
     },2000)
+    setTimeout(()=>{
+        listbtn.classList.add("act")
+    },5000)
 });
 
 

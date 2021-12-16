@@ -369,3 +369,6 @@ button {
 
 .disappear {
   transform: translateX(-3000px); }
+
+.disappear2 {
+  opacity: 0; }
