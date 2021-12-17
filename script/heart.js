@@ -34,7 +34,7 @@ heart.addEventListener('click', ()=>{
     },2000)
     setTimeout(()=>{
         listbtn.classList.add("act")
-    },5000)
+    },1000)
 });
 
 
@@ -102,7 +102,7 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
-window.onload = function() {
+heart.onclick = setTimeout(()=> {
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
@@ -116,4 +116,6 @@ window.onload = function() {
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
-};
+}
+, 2000);
+ 

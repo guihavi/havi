@@ -104,7 +104,7 @@ buttons.forEach((button) => {
     let words = buttonTextElement.innerText.split(' '),
         wordHTML = ''
     words.forEach((word, index) => {
-      if (word === 'sure?') {
+      if (word === 'chưa?') {
         let characters = word.split(''),
             letterHTML = ''
         characters.forEach((char, index2) => {

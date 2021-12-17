@@ -19,7 +19,7 @@ body {
     left: -100vw;
   }
   [id='toggle-heart']:checked + label {
-    color: #e2264d;
+    color: #f35776;
     -webkit-filter: none;
             filter: none;
     will-change: font-size;
@@ -51,8 +51,10 @@ body {
         -ms-flex-item-align: center;
             align-self: center;
     position: relative;
-    color: #888;
-    font-size: 2em;
+    color: #000;
+    font-size: 1.5em;
+    font-family: 'Patrick Hand', cursive !important;
+
     -webkit-filter: grayscale(1);
             filter: grayscale(1);
     -webkit-user-select: none;
@@ -168,6 +170,7 @@ $icon-color-cancel: #ff6161;
   padding-right: 32px;
   position: relative;
   width: 160px;
+
   -webkit-tap-highlight-color: transparent;
   &.ready {
     cursor: pointer;
@@ -258,11 +261,11 @@ $icon-color-cancel: #ff6161;
   // Background of button is independent of the button content
   &::before {
     background-color: $bg-button;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 3px 3px rgba(#000, 0.05);
     content: '';
     display: block;
-    height: 100%;
+    height: 120%;
     left: 50%;
     position: absolute;
     top: 50%;
@@ -300,6 +303,8 @@ $icon-color-cancel: #ff6161;
     transform: none;
     transition: opacity 200ms linear, transform 200ms ease;
     z-index: 3;
+    left:50%;
+    transform: translateX(-50%);
   }
 
   &__icon {
