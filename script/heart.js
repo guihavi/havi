@@ -34,7 +34,7 @@ heart.addEventListener('click', ()=>{
     },2000)
     setTimeout(()=>{
         listbtn.classList.add("act")
-    },1000)
+    },105000)
 });
 
 
